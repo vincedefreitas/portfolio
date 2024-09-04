@@ -195,6 +195,10 @@ footer {
   .about-me-text {
     order: 2;
   }
+
+  .project-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 768px) {
