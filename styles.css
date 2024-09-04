@@ -170,6 +170,20 @@ footer {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .container-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .img-container {
+    order: 1;
+  }
+
+  .about-me-text {
+    order: 2;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container-grid {
     grid-template-columns: 1fr;
