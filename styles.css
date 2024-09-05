@@ -65,7 +65,8 @@ a:hover {
 
 .hero h1,
 .hero p,
-.about-me h2 {
+.about-me h2,
+.blog h1 {
   margin: 0;
   font-size: 2.5rem;
   font-weight: 200;
@@ -99,7 +100,9 @@ a:hover {
   padding: 100px 0;
 }
 
-.about-me p {
+.about-me p,
+.blog p,
+.blog li {
   font-size: 1.2rem;
   line-height: 1.6;
   font-weight: 300;
@@ -174,6 +177,10 @@ footer {
 
 .icons svg:hover {
   transform: scale(1.1);
+}
+
+.blog {
+  padding-top: 50px;
 }
 
 li {
