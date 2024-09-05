@@ -39,7 +39,7 @@ nav {
 }
 
 .hamb-line {
-  background: #000;
+  background: var(--text);
   display: block;
   height: 2px;
   position: relative;
@@ -292,7 +292,7 @@ li {
   }
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 750px) {
   .hamb {
     display: block;
   }
