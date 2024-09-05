@@ -88,7 +88,7 @@ a:hover {
   grid-template-columns: 1fr;
   height: 100vh;
   padding: 100px 0;
-  background-color: #ededed;
+  /* background-color: #ededed; */
 }
 
 .hero-text {
@@ -251,6 +251,12 @@ li {
     background-image: url(./images/desk-medium.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .hero {
+    background-color: #e6e6e6;
   }
 }
 
