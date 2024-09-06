@@ -338,6 +338,15 @@ li {
   .hero p {
     font-size: 2.1rem;
   }
+
+  .about-me p,
+  .blog p,
+  .blog li,
+  .project-1 p,
+  .project-1 li {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width: 320px) {
