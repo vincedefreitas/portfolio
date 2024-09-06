@@ -331,6 +331,7 @@ li {
 @media screen and (max-width: 425px) {
   .hero {
     padding: 0;
+    height: 80vh;
   }
 
   .hero h1,
