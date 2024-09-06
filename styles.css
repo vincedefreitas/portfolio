@@ -329,6 +329,10 @@ li {
 }
 
 @media screen and (max-width: 425px) {
+  .hero {
+    padding: 0;
+  }
+
   .hero h1,
   .hero p {
     font-size: 2.1rem;
