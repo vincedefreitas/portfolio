@@ -147,9 +147,7 @@ a:hover {
 
 .about-me p,
 .blog p,
-.blog li,
-.project p,
-.project li {
+.blog li {
   font-size: 1.2rem;
   line-height: 1.6;
   font-weight: 300;
@@ -234,7 +232,7 @@ footer {
 }
 
 .blog,
-.project {
+.project-overview {
   padding-top: 50px;
 }
 
@@ -353,10 +351,11 @@ li {
   .about-me p,
   .blog p,
   .blog li,
-  .project p,
-  .project li {
+  .project-overview p,
+  .project-overview li {
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.6;
   }
 }
 
