@@ -5,6 +5,11 @@
   --ff: "Inter", sans-serif;
 }
 
+::selection {
+  background: #ffaa5bad;
+  opacity: 0.2;
+}
+
 html {
   scroll-behavior: smooth;
 }
